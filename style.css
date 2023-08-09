@@ -1,0 +1,221 @@
+@import url('https://fonts.google.com/specimen/Courgette');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+.barranav{
+    background-color: rgb(201, 93, 93);
+    font-family: 'Courgette';
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+.barranav img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    float: left;
+}
+.barranav nav{
+    margin-top: 55px;
+    justify-content: space-between;
+    align-items: center;
+}
+.barranav a{
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+}
+.bienvenida{
+    background-color: rgb(240, 213, 179);
+    font-family: 'Lugrasimo';
+    color: brown;
+    display: flex;  
+    margin-top: 5px;
+}
+.bienvenida h1{
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+}
+.bienvenida p{
+    text-align: center;
+}
+.bienvenida img{
+    width: 250px;
+    border-radius: 25%;
+    margin-left: 80px;
+}
+#quiensoy, #mifamilia, #missueños{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-family: 'Courgette';
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(240, 162, 133);
+}
+.quiensoy1{
+    display: flex;
+    background-color: rgb(203, 162, 241);
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+.colum1 img{
+    width: 200px;
+    border-radius: 50%;
+}
+.carousel-inner img{
+    height: 500px;
+}
+.familia1{
+    background-color: burlywood;
+}
+.mami{
+    background-color: rgb(221, 175, 59);
+    text-align: justify;
+}
+.mami img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15%;
+}
+.bro{
+    background-color:rgb(160, 90, 226);
+    text-align: justify;
+}
+.bro img{
+    width: 250px;
+    height: 193px;
+    border-radius: 15%;
+}
+.abu{
+    background-color: rgb(190, 18, 18);
+    text-align: justify;
+    color: pink;
+}
+.abu img{
+    width: 250px;
+    height: 200px;
+    border-radius: 15%;
+}
+.chou{
+    background-color: rgb(62, 62, 155);
+    color: aliceblue;
+    text-align: justify;
+}
+.chou img{
+    width: 250px;
+    border-radius: 15%;
+}
+.abu button, .mami button, .bro button, .chou button{
+   margin-left: 125px;
+   background-color: whitesmoke;
+   color: darkred;
+}
+.videos{
+    background-color: rgb(61, 10, 10);
+    text-align: center;
+    color: tomato;
+    font-family: 'Courgette';
+    text-decoration: underline;
+}
+.videos iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+}
+.sueño1{
+    background-image: url(./imagenes/5.jpg);
+    color: rgb(245, 245, 96);
+    font-weight: 600;
+    font-size: larger;
+    text-align: center;
+    padding-bottom: 12px;
+}
+.sueño1 h1{
+    font-family: 'Borel', cursive;
+    color: palegreen;
+    text-decoration:overline underline;
+    text-align: center;
+    padding-top: 20px;
+}
+.sueño2{
+    background-image: url(./imagenes/6.jpg);
+    color: black;
+    font-weight: 600;
+    font-size: larger;
+    text-align: center;
+    margin-right: 0%;
+    padding-bottom: 12px;
+}
+.sueño2 h1{
+    font-family: 'Borel', cursive;
+    color: rgb(39, 207, 236);
+    text-decoration:overline underline;
+    text-align: center;
+    padding-top: 20px;
+}
+.sueño3{
+    background-image: url(./imagenes/7.png);
+    color:crimson;
+    font-weight: 600;
+    font-size: larger;
+    text-align: center;
+}
+.sueño3 h1{
+    font-family: 'Borel', cursive;
+    color:darkgreen;
+    text-decoration:overline underline;
+    text-align: center;
+    padding-top: 20px;
+}
+.sueño4{
+    background-color:peachpuff;
+    font-family: 'Lugrasimo';
+    color: chocolate;
+    font-size: larger;
+    text-align: center;
+}
+.sueño4 h1{
+    font-family: 'Borel', cursive;
+    color:darkmagenta;
+    text-decoration:underline;
+    text-align: center;
+}
+.sueño4 img{
+    border-radius: 15%;
+    left:0;
+    top:0;
+    height:45%;
+    width:50%;
+}
+#img4{
+    height: 400px;
+}
+#contacto h2,h4{
+    color:firebrick;
+    font-family: 'Courgette';
+    font-weight: bolder;
+    text-decoration: underline overline;
+}
+#contacto{
+    font-family: 'Lugrasimo';  
+    font-size: larger;
+}
+#contacto li{
+    padding: 15px;
+}
+#contacto i{
+    color: violet;
+}
+#contacto iframe{
+    left:0;
+    top:0;
+    height:70%;
+    width:100%;
+}
+
+
+
